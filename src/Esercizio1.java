@@ -12,6 +12,7 @@ public class Esercizio1 {
 
         System.out.println("Inserisci il numero di elementi da inserire");
         int n = myscanner.nextInt();
+        myscanner.nextLine();
 
         for (int i = 0;i < n; i++ ) {
             System.out.println("inserisci un altra parola" +(i + 1));
